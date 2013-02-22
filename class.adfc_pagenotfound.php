@@ -68,7 +68,7 @@ class user_pageNotFound {
 			}
 
 			// the redirect part of the new URL
-			$redirect = $parameterSeparator . 'redirectUid=' . $redirectUid;
+			$redirect = $parameterSeparator . 'arPid=' . $redirectUid;
 
 			header("HTTP/1.0 302 FE-Login required");
 			header("Location: " . t3lib_div::locationHeaderUrl($errorpage . $redirect));
