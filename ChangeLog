@@ -1,3 +1,7 @@
+15-12-21 Daniel Siepmann  <d.siepmann@web-vision.de>
+
+	* Rewrite for TYPO3 CMS 6.2 with less and cleaner code.
+
 10-01-09 Jan Bartels  <j.bartels@adfc-nrw.de>
 
 	* Initial release
