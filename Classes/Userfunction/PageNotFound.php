@@ -112,7 +112,7 @@ class PageNotFound
             $redirectUrl .= '&';
         }
 
-        return $redirectUrl . 'redirect_url=' . GeneralUtility::getIndpEnv('TYPO3_REQUEST_URL');
+        return $redirectUrl . 'redirect_url=' . rawurlencode(GeneralUtility::getIndpEnv('TYPO3_REQUEST_URL'));
     }
 
     /**
